@@ -1,5 +1,6 @@
 # Amazon_Vine_Analysis
 
+### Challenge Deliverable 1
 An Amazon Review dataset for groceries was selected and extracted as a DataFrame. Dataset file is listed below with the DataFrame. 
 
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Grocery_v1_00.tsv.gz
@@ -35,3 +36,50 @@ review_id_table
 vine_table
 
 ![postgres vine_table](https://user-images.githubusercontent.com/89353378/148317976-d7224620-6222-482f-89da-7895fd2d4a2e.PNG)
+
+
+### Challenge Deliverable 2
+
+A vine table DataFrame was extracted from the grocery reviews list using pySpark and Google Colab.
+
+![image](https://user-images.githubusercontent.com/89353378/148668598-3d234ed0-8307-4914-a2b6-a54591628bb8.png)
+
+
+In order to choose reviews that have a higher likelihood of being the most helpful, this DataFrame was filtered to show total votes of 20 or more.
+
+![image](https://user-images.githubusercontent.com/89353378/148668635-772d08cb-94b5-4df5-8e29-f45817704fdb.png)
+
+
+This DataFrame was further reduced to show reviews where the percentage of helpful votes are greater than or equal to 50%.
+
+![image](https://user-images.githubusercontent.com/89353378/148668761-aa5cad10-a9ac-43ec-b0a0-a98674bc8e85.png)
+
+
+A new DataFrame was created that lists reviews written as part of the Vine program (paid).
+
+![image](https://user-images.githubusercontent.com/89353378/148668826-80ad269a-3ec2-4a43-955d-ed1434a293a4.png)
+
+
+Another DataFrame lists reviews that are not part of the Vine program (unpaid).
+
+![image](https://user-images.githubusercontent.com/89353378/148668866-2160bf71-6642-4b55-b0c2-82e9e234a344.png)
+
+
+Calculations were then made to determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+
+![image](https://user-images.githubusercontent.com/89353378/148669094-06704fed-d3ed-4d89-a0e9-7b8d97f6f422.png)  ![image](https://user-images.githubusercontent.com/89353378/148669143-163eb663-e392-46b2-9c3c-ed4838e3ec9b.png)
+
+![image](https://user-images.githubusercontent.com/89353378/148669052-63e07205-130a-4283-896c-5bf5680eebfb.png)
+  ![image](https://user-images.githubusercontent.com/89353378/148669167-4fc98c95-f5e5-45ca-bf36-e04aa6add3e0.png)
+
+![image](https://user-images.githubusercontent.com/89353378/148668931-eeacfdab-a6e1-405b-a3a5-7e7f5ae96154.png)
+  ![image](https://user-images.githubusercontent.com/89353378/148668939-cba10c1b-5fd8-4f12-82b7-c37997db15a7.png)
+
+
+### Challenge Deliverable 3
+
+
+  
+
+
+
