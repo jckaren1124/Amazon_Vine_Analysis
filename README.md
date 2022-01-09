@@ -78,8 +78,16 @@ Calculations were then made to determine the total number of reviews, the number
 
 ### Challenge Deliverable 3
 
+**Overview of the analysis**
 
+The purpose of this analysis is to determine whether product reviews from paid Amazon Vine members generate more favorable reviews and higher star ratings compared to nonpaid product reviews.  This comparison can show whether Amazon reviews are biased towards companies who pay Amazon for product reviews.
   
+**Results**
 
+The results indicate that 99.87% of 5-star rating reviews are from unpaid sources while 0.13% of the total 5-star rating reviews are from subscribers in the paid Vine program. Also, there are a total of 28,235 reviews with 15,692 of these reviews rated as 5-star ratings.  With such a high number of reviews, it's more likely that the results are valid.
+
+**Summary**
+
+The above results seem to indicate that Amazon ratings are valid, and that it may seem worthwhile to spend money in this Vine review program in exchange for honest feedback of company products.
 
 
